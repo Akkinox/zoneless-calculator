@@ -1,0 +1,17 @@
+@reference "tailwindcss";
+
+button{
+    @apply w-full h-16 outline-none focus:outline-none hover:bg-indigo-700/20 text-white text-xl font-light;
+}
+
+/* ::ng-deep .is-command{
+    @apply bg-indigo-700/20;
+} */
+
+.is-command{
+    @apply bg-indigo-600;
+}
+
+.is-press {
+    @apply bg-indigo-800/20;
+}
